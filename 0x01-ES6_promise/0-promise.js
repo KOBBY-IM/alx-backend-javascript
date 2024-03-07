@@ -1,5 +1,5 @@
 /* eslint */
 
-const getResponseFromAPI = () => new Promise((resolve, reject) => {});
+const getResponseFromAPI = () => Promise.resolve();
 
 export default getResponseFromAPI;
